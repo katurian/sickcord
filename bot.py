@@ -23,6 +23,4 @@ async def on_message(message):
   if "!sickscore" in message.content:
     await client.send_message(message.channel, "working")
     
-    
-
 client.run('')
