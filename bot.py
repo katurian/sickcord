@@ -1,3 +1,4 @@
+
 import discord
 from sickweather import getMarkersInRadius, markerCountInRadius, getForecast, getWeatherMaps, getIllnesses, getSickScoreInRadius, getSickScoreByZipcode, getColdFluScoreInRadius, getAllergySickScoreInRadius, submitReport, api_key
 import json
