@@ -4,7 +4,7 @@ from pprint import pprint
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-api_key = 'thxh8o43b838dommdm4eveimlrwcs9bl'
+api_key = 'thxh8o43b83XXXXXXXXXXXXXXXXXX'
 
 def getMarkersInRadius(lat, lon, ids, limit, radius, date_start, date_end):
     r = requests.get(f'https://mobilesvc.sickweather.com/ws/v2.0/markers/getMarkersInRadius.php?lat={lat}&lon={lon}&ids={ids}&limit={limit}&radius={radius}&date_start={date_start}&date_end={date_end}&api_key={api_key}', verify=False)
