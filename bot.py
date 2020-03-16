@@ -81,4 +81,4 @@ async def on_message(message):
         embed.add_field(name="Pink Eye", value="22")
         await message.channel.send(embed=embed)
 
-client.run('Njg1NjIzODg4MDMzXXXXXXXXXXXXXXXXXXX')
+client.run('Njg1NjIXXXXXXXXXXXXXXXXXXXXXXXX')
